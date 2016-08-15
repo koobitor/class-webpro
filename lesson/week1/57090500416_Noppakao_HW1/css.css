@@ -1,0 +1,13 @@
+  h1{
+	  font-size:250%;
+      color:black;
+	  text-align : center;	  
+  }
+  h2{
+	  text-decoration: overline;
+	  text-transform: uppercase
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+}
