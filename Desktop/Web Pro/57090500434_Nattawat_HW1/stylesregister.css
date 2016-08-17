@@ -1,0 +1,56 @@
+body {
+    color: deepskyblue;
+}
+
+h1{
+  color: chocolate;
+  text-decoration: underline;
+  text-indent: 10px;
+}
+
+h2{
+  font-size: 20px;
+  color: lightsalmon;
+}
+
+h3{
+  font-size: 20px;
+  color: lightpink;
+}
+
+h4{
+  font-size: 20px;
+  color: lightgray;
+}
+
+h5{
+  font-size: 20px;
+  color: royalblue;
+}
+
+h6{
+  font-size: 20px;
+  color: sandybrown;
+}
+
+p{
+  font-size: 20px;
+  color: gold;
+}
+
+fieldset{
+  border-color: springgreen;
+}
+
+legend{
+  text-align: center;
+  text-shadow:4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  font-size: 24px;
+  font-style: oblique;
+  color: plum;
+}
+
+u{
+  font-size: 20px;
+  color: deepskyblue;
+}

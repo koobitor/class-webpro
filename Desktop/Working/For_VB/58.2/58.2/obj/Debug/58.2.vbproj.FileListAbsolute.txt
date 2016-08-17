@@ -1,0 +1,11 @@
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\bin\Debug\58.2.exe.config
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\obj\Debug\58.2.vbprojResolveAssemblyReference.cache
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\obj\Debug\_58._2.Form1.resources
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\obj\Debug\_58._2.Resources.resources
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\obj\Debug\58.2.vbproj.GenerateResource.Cache
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\obj\Debug\58.2.xml
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\bin\Debug\58.2.exe
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\bin\Debug\58.2.pdb
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\bin\Debug\58.2.xml
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\obj\Debug\58.2.exe
+C:\Users\newyear\Desktop\Working\For_VB\58.2\58.2\obj\Debug\58.2.pdb

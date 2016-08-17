@@ -1,0 +1,11 @@
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\bin\Debug\55_3.exe.config
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\bin\Debug\55_3.exe
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\bin\Debug\55_3.pdb
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\bin\Debug\55_3.xml
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\obj\Debug\55_3.vbprojResolveAssemblyReference.cache
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\obj\Debug\_55_3.Form1.resources
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\obj\Debug\_55_3.Resources.resources
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\obj\Debug\55_3.vbproj.GenerateResource.Cache
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\obj\Debug\55_3.exe
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\obj\Debug\55_3.xml
+C:\Users\newyear\Desktop\Working\For_VB\55_3\55_3\obj\Debug\55_3.pdb

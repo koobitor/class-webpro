@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <style>body {background-color: Azure;}</style>
+  <meta name="author" content="NewYear">
+ <link rel="stylesheet" type = "text/css" href="stylesregister.css">
+</head>
+<body>
+  <h1>Start time of register</h1>
+  <p id="starttime"></p>
+  <script>
+   document.getElementById('starttime').innerHTML = Date()
+  </script>
+
+  <script>
+   document.getElementById("starttime").style.fontSize = "22px";
+   document.getElementById("starttime").style.color = "red";
+  </script>
+
+<form action="result.html" target = "_self">
+  <fieldset>
+    <legend><b>Register ID</b></legend>
+
+    <h2>First name :
+    <input type="text" name="firstname">
+    </h2>
+
+    <h3>Last name :
+    <input type="text" name="lastname">
+    </h3>
+
+    <p>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female
+    </p>
+
+    <h4>Age :
+    <input type="text" name="age">
+    </h4>
+
+    <h5>Email :
+    <input type="text" name="email">
+    </h5>
+
+    <h6>Password :
+    <input type="text" name="password">
+    </h6>
+
+    <input type="submit" value="Submit">
+    <br><br>
+
+    **<u>Please make sure your information before submit</u>**
+  </fieldset>
+</form>
+
+</body>
+</html>
