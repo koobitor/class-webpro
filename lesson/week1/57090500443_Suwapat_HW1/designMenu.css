@@ -1,0 +1,76 @@
+/* CSS Document */
+body{
+	font-family:Tahoma;
+	font-size:16px;
+	margin:0px;
+	color:#232323;
+}
+.clearFloat{
+	clear:both;
+}
+.BoxFull{	
+	background-color:#16ABD8;
+	margin:0px;
+}
+.BoxFull #TitleCenter{
+	margin:0px auto 0px auto;
+	width:990px;
+	height:100px;	
+	position:relative;
+}
+#TitleCenter #TitleText{
+	position:absolute;
+	top:20px;
+	left:485px;
+	font-family:Tahoma;
+	font-size:40px;	
+	color:#232323;
+}
+#BoxCenter{
+	width:990px;
+	margin:0px auto 0px auto;
+}
+#BoxCenter #Content{
+	margin-top:5px;
+}
+#Content #ContentL{
+	width:330px;
+	height:450px;
+	border:2px;
+	border-style:dashed;
+	border-color:#047386;
+	float:left;
+}
+#Content #ContentR{
+	width:647px;	
+	border:2px;
+	margin-left:5px;
+	border-style:dashed;
+	border-color:#047386;
+	float:left;
+}
+#ContentL .menu{
+	margin-top:20px;
+	margin-left:20px;	
+}
+a{
+	font-size:24px;	
+}
+a:hover{
+	color:#F29BDE;
+	text-decoration:underline;
+}
+h1{
+	text-align:center;
+	color:#BB0306;
+}
+#buttonForm{
+	border:1px;
+	border-color:#1D6F97;	
+	padding:20px;
+	font-size:24px;
+}
+
+
+
+

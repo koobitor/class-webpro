@@ -1,0 +1,21 @@
+/* CSS Document */
+body{
+ font-family:Tahoma;
+ font-size:20px;
+ margin:0px;
+ color:black;
+ text-align: center;
+ background-color:#F8CC5E;
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-size:50px;
+}
+#TitleCenter{
+	margin:0px auto 0px auto;
+	width:990px;
+}
+
+
+
