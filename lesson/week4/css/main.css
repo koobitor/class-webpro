@@ -14,7 +14,7 @@ html, body{
   font-family:'caviar_dreamsregular', sans-serif;
   width: 500px;
 	min-height: 300px;
-  background-color: #bbbbbb;
+  background-color: #c9c9c9;
   padding:15px;
   border-radius:3%;
   margin: 50px auto;
@@ -106,9 +106,9 @@ html, body{
 #btn1 {
   background-color: #FDFBC6;
   color: black;
-  border: 2px solid #bbbbbb;
+  border: 2px solid #c9c9c9;
 }
 
 #btn1:hover {
-  background-color: #bbbbbb;
+  background-color: #c9c9c9;
 }

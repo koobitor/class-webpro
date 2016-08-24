@@ -12,6 +12,12 @@ $(document).ready(function(){
     $(this).parent().remove() //empty() content หาย - remove() tag หายด้วย
   })*/
 
+  jQuery.fn.fadeOutAndRemove = function(speed){
+    $(this).fadeOut(speed,function(){
+        $(this).remove();
+    })
+  }
+
   $input.keyup(function(e){
     //console.log($input.val())
     if(e.keyCode == 13)
@@ -23,7 +29,7 @@ $(document).ready(function(){
   })
 
   $content.on('click','.delete',function(){
-    $(this).parent().fadeToggle(300)
+    $(this).parent().fadeOutAndRemove(300);
   })
 
   $content.on('change','.check',function(){
@@ -39,7 +45,7 @@ $(document).ready(function(){
 
   $btn.click(function(){
     $("input[type=checkbox]:checked").each(function() {
-        $(this).parent().fadeToggle(300)
+      $(this).parent().fadeOutAndRemove(300);
     });
   });
 
