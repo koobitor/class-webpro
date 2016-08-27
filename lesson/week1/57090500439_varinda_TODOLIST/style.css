@@ -1,0 +1,68 @@
+
+body{
+  background-image: url(cloudbg.jpg);
+  background-repeat:no-repeat;
+  background-position: top;
+  background-color:rgb(193, 222, 238);
+
+}
+
+h1{
+  text-align: left;
+  font-family: Brush Script MT;
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size: 60px;
+  color:MidnightBlue ;
+}
+
+.add-text{
+    padding: 25px 200px 25px 40px;
+    background: LightCyan ;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 160px;
+    font-size: 24px;
+    border-radius: 2%;
+    color: Navy;
+    font-weight: bold;
+  }
+
+.btn-add{
+     margin-left:20px;
+     background-color: LightSkyBlue ;
+     border-radius: 10px;
+     font-size: 32px;
+     padding: 15px 25px;
+     font-family: Cooper Black;
+     color: Navy;
+}
+
+.btn-add:hover {
+  background-color: Bisque ;
+}
+
+.btn-add:active {
+  background-color:DodgerBlue  ;
+  box-shadow: 4px 6px DarkSlateGray;
+}
+
+ul{
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+ a {
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: red;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+
+}
