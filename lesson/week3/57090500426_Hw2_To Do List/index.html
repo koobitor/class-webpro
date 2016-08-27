@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div id="myDIV" class="header">
+      <h2>My To Do List</h2>
+      <p>
+        <strong>Note : </strong>You can press the enter key to add task.
+      </p>
+      <span onclick="checkAll()" class="btnCheck">Check all</span>
+      <input type="text" id="myInput" placeholder="Typing your task here..." class="input-task"
+            onkeyup = "if (event.keyCode == 13) newElement()"  >
+      <span class="addBtn">Add</span>
+    </div>
+    <ul id="myUL" class="content">
+      <li>Catch some pokemons</li>
+      <li class="checked">Pay bills</li>
+      <li>Meet an adviser</li>
+      <li>Buy eggs</li>
+      <li class="checked">Read a book</li>
+      <li>Push up 25 times</li>
+    </ul>
+    <div class="footer">
+      <span class="btnDelete"> Remove all checked tasks </span>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
