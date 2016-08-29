@@ -1,0 +1,25 @@
+.pReRange{
+	text-indent: 50px;
+	text-align: justify;
+}
+.justify{
+	text-align: justify;
+}
+
+textarea{
+	resize: none;
+}
+
+.obique{
+	font-style: oblique;
+}
+
+
+.detailsClip{
+	font-size: 200%;
+}
+a{
+	text-decoration: none;
+	color: #0000FF;
+}
+

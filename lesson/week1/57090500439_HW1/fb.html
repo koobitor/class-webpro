@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TImE TO REsT:FEEDBACK</title>
+  <link rel ="stylesheet" href = "styles.css">
+  <link rel ="stylesheet" href = "styles2.css">
+</head>
+<body>
+     <h1>TImE<span>TO</span> REsT</h1><br><br>
+     <a href = "home.html" ><img src="back.png" alt = "back" style = "width:80px;height:80px;border:0px"></a>
+     <p style ="font-size:40px;color:Navy; padding:0px 0px 0px 100px; margin:10px;"><strong> SEND US YOUR FEEDBACK</strong></p>
+
+    <div class="fn" >
+      <form action="home.html">
+        <b><label for="fname">First Name  :     </label></b>
+        <input type="text" id="fname" name="firstname">
+        <br>
+        <b><label for="lname">Last Name  :     </label></b>
+        <input type="text" id="lname" name="lastname">
+        <br>
+        <b><label for="rate">Rating  :     </label></b>
+        <select id="score" name="score" style="width: 60px;">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <br>
+        <b><label for="comment">Comment  : </label></b><br>
+        <textarea name="message" rows="6" cols="100" ></textarea>
+        <br>
+        <p style="padding:0px 0px 0px 300px;" ><input type="submit" value="Submit" onclick="alert('Thank you for your feedback')" ></p>
+      </form>
+    </div>
+
+</body>
+</html>

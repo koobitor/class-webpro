@@ -1,0 +1,13 @@
+.video{
+	margin: 0 auto;
+	width: 600px;
+}
+body{
+	background-image: url("bgblack.jpg")
+}
+.click{
+	color : white;
+	font-size: 40px;
+	font-family : "OCR A";
+	text-align: center;
+}

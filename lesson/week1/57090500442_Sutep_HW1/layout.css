@@ -1,0 +1,54 @@
+
+div.container {
+    width: 1080px;
+    border: 1px solid gray;
+    margin: auto;
+
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font-family: "OCR A";
+}
+
+article{
+    border-left: 1px solid black;
+    background: #FFFFFF;
+    min-height: 800px;
+    overflow: hidden;
+    padding: 25px;
+    font-family:"Leelawaee";
+}
+
+body {
+    background-image: url("ai-brain-knowledge-graph-ss-1920-800x450.jpg");
+}
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #232222;
+}
+
+.navli {
+    float: left;
+}
+
+.navli a{
+    font-weight: bold;
+    display: block;
+    color: #EFF4FA;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.navli a:hover{
+    background-color: #111111;
+}
+
+

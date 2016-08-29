@@ -1,0 +1,68 @@
+body{
+	background-image: url("bgblack.jpg")
+}
+p{
+	font-family : "OCR A";
+	font-size: 40px;
+	color: white;
+	
+}
+.team{
+	text-align: center;
+	margin-bottom: 20px;
+	
+	
+	}
+ins{
+	font-size: 50px;
+	color: white;
+	border: 1px solid black;
+	padding: 50px 30px 50px 80px;
+	font-variant: small-caps;
+	visibility: show;
+	
+	
+}
+a, a:visited {
+    color: white;
+	
+}
+a:hover {
+    
+	
+	color: pink;
+	
+}
+a:link {
+    text-decoration: none;
+}
+
+.team-box img  {
+	
+	margin-right: 70px;
+	margin-bottom : 30px;
+	
+}
+header, footer {
+    padding: 0.5em;
+    color:white;
+    background-image: url("bgblack2.jpg");
+    clear: right;
+    text-align: center;
+	font-family : "OCR A";
+	font-size : 20px;
+	
+}
+.first {
+	margin-top : 5;
+	margin-bottom : 5;
+	color : White;
+	text-align : center;
+}
+.form{
+	color : white;
+	text-align : center;
+}
+	
+	
+

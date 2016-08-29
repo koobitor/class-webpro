@@ -1,0 +1,74 @@
+
+body {
+    background-color:rgb(193, 222, 238);
+    background-image: url("cloudbg.jpg");
+    background-repeat:no-repeat;
+    background-position:top;
+}
+
+ul{
+  list-style-type:none;
+  padding: 150;
+  overflow: hidden;
+  margin: 0;
+  background-color: rgb(111, 174, 203);
+  font-size: 36px;
+}
+
+li{
+  float:left;
+  text-shadow: 3px 3px 5px white ;
+}
+
+li a {
+  display: block;
+  color: MidnightBlue;
+  text-align:center;
+  padding: 19px;
+}
+
+li a:hover{
+  background-color:Bisque;
+}
+li a:active {
+    background-color: hotpink;
+}
+
+h1{
+  font-style: italic;
+  font-size: 45px;
+  text-align: right;
+  color:Navy;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue , 0 0 5px pink;
+}
+
+span{
+  color:LightCyan ;
+}
+
+div.fb {
+    background-color: rgb(111, 174, 203) ;
+    margin: 10px 0 20px 0;
+    padding: 5px 5px 5px 5px;
+}
+
+#p03{
+  color: SlateBlue ;
+  padding: 0px 0px  0px 460px;
+  font-size: 28px;
+
+}
+
+q{
+  font-size: 34px;
+}
+
+div.home{
+   background-color:MistyRose;
+   color: MidnightBlue;
+   margin: 20px 0 20px 0;
+   padding: 20px;
+   border-radius: 40%;
+   text-shadow: 2px 2px 2px white, 0px 0px 25px red   , 0px 0px 15px Aquamarine ;
+   font-style: cambria;
+}

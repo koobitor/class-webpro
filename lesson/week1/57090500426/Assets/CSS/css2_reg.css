@@ -1,0 +1,18 @@
+body{
+	background-color:black;
+	text-align:center;
+	color:gold;
+	font-family:tahoma;
+}
+.info{
+	border:4px solid gold; 
+	padding:20px;
+	margin:10px 550px;
+}
+.sex{
+	border:4px solid gold;
+	margin: 0px 10px;
+}
+.leg{
+	font-size:18px
+}

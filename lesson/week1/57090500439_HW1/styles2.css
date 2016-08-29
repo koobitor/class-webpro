@@ -1,0 +1,143 @@
+div.container {
+    width: 100%;
+    border: 2px solid DarkBlue  ;
+
+}
+
+header, footer {
+    padding:10px;
+    color: white;
+    background-color: rgb(111, 174, 203) ;
+    clear: left;
+    text-align: center;
+    font-size: 28px;
+    font-family: Cambria;;
+    border-style: dashed;
+
+}
+
+nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 2em;
+    color: MidnightBlue ;
+}
+
+article {
+    margin-left: 230px;
+    padding: 2em;
+}
+hr{
+  border-style: dotted;
+  border-width: thick;
+  border-color: Maroon;
+}
+
+#p01{
+  color:MidnightBlue  ;
+  text-align: center;
+  text-decoration: overline;
+  font-size: 28px;
+}
+
+#p02{
+  color:DarkSlateGrey ;
+  font-size: 24px;
+  font-family:cambria;
+}
+
+pre{
+  color:DarkSlateGrey ;
+  font-size: 18px;
+  font-style: normal;
+}
+
+img{
+   width: 96%;
+   height: 100%;
+   border: 3px solid #ccc;
+   border-radius: 15px;
+}
+
+#p03{
+  color: SlateBlue ;
+  padding: 0px 0px  0px 250px;
+  font-size: 28px;
+}
+
+table , th,td {
+  width : 80%;
+  border: 3px solid MidnightBlue ;
+  padding: 50px;
+  font-weight:bolder;
+  font-size: 24px;
+  color:MidnightBlue ;
+  background-color: Lavender ;
+}
+
+td{
+  text-align: left;
+}
+
+caption{
+  font-size: 26px;
+  color:MidnightBlue ;
+}
+
+#borderimg {
+    border: 15px solid;
+    padding: 50px;
+    border-image: url(sparkle1.png) 30 round;
+}
+
+#borderimg2 {
+    border: 15px solid;
+    padding: 15px;
+    border-image: url(sparkle2.png) 30 round;
+}
+
+input{
+  font-size:24px;
+  color:black;
+}
+
+label{
+  font-size: 28px;
+  color:navy;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 10px;
+    margin:20px 0px 20px 12px;
+    display: inline-block;
+    border: 2px solid Wheat   ;
+    border-radius: 6px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: Teal   ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+}
+
+textarea{
+    border: 2px solid wheat;
+    border-radius: 6px;
+}
+
+input[type=submit]:hover {
+    background-color: LightSalmon  ;
+}
+
+div.fn {
+    border-radius: 10px;
+    background-color: PapayaWhip  ;
+    padding:0px 0px 0px 150px;
+    color:black;
+    box-shadow: 10px 10px Coral  ;
+}

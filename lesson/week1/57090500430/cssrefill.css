@@ -1,0 +1,16 @@
+
+#divloginform{
+	
+	  border: 5px solid #000088;	
+	 background-color:#FFFF00; 
+	 margin: 0 auto;
+	 margin-top: 7%;
+	width: 300px;	
+	 height:180px; 
+	 color:red;
+	 padding-left: 5px;
+	 border-radius: 20px;
+}
+#form2{
+	padding-left: 12px;
+}
