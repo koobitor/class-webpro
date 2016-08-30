@@ -1,0 +1,42 @@
+html {
+  background:  url("cs_go___wallpapers_1920x1080_by_plesnior-d9bn3ot.png") no-repeat center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+h2{
+	  font-size:250%;
+      color:blue;
+	  background-color:#CC9900;
+ 
+  }
+  
+	thead {color:green;}
+	tbody {color:blue;}
+	tfoot {color:red;}
+table, th, td {
+    border: 1px solid blue;
+	border-collapse: collapse;
+}
+	th, td {
+    padding: 5px;
+    text-align: left;
+    background-color: #000033;
+}
+form{
+	color:white;
+}
+caption{
+	font-size:250%;
+	color:#FFCC00;
+}
+div{
+ background-color:#CC9900;
+ color:white;
+ padding:20px;"
+ background-clip: padding-box;
+ max-width: 1980px;
+    height: 200px;
+	border-left-color :#FF9900;
+	border-right-color : #FF9900;
+}
