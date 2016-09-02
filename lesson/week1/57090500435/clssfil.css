@@ -1,0 +1,24 @@
+﻿.small{
+	font-size:30px;
+	font-family:Comic Sans MS;
+	line-height: 0px;
+}
+#st1{
+	border-radius: 50px;
+	position: absolute;
+    	left: 100px;
+    	top: 300px;
+    	z-index: -50;
+}
+#d1{
+	position: absolute;
+    	top: 200px;
+    	right:50px;
+    	width: 1000px;
+    	height: 650px;
+    	border: 3px;
+    	background-color:white;
+    	opacity: 0.5;
+	font-weight:bold;
+	font-size: 70px;
+}

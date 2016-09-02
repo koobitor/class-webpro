@@ -1,0 +1,29 @@
+
+body {
+    background-color: lightblue;
+}
+
+b {
+    font-size: 38px;
+    color: deeppink;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-kerning: normal;
+    font-size-adjust: auto;
+}
+
+i {
+    font-family: verdana;
+    font-size: 24px;
+    color: goldenrod;
+
+}
+
+h2{
+  font-family: fantasy;
+  color: red;
+}
+
+mark {
+    font-size: 24px;
+}

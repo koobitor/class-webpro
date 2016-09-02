@@ -1,0 +1,62 @@
+body { 
+	position: relative;        
+    width: 60%;            
+    height: 610px;       
+    margin-left: auto;      
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#centerboard{
+    padding: 0;
+    overflow: hidden;
+}
+
+
+li {
+    float: left;
+}
+
+#homeButton{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#workButton{
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#friendsButton{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#universityButton{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

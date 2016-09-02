@@ -1,0 +1,26 @@
+h1{
+  color: chocolate;
+  text-decoration: underline;
+  text-indent: 10px;
+}
+
+body {
+    color: deepskyblue;
+}
+
+html{
+  background-color: mistyrose;
+}
+
+.btn-add,.btn-del{
+  color: gold;
+  background-color: LavenderBlush;
+}
+
+.delete{
+  color: red;
+}
+
+.task-input{
+  color: orange;
+}

@@ -1,0 +1,122 @@
+body { 
+    background-image: url("ccbi.jpg");
+    background-size: 924px 1820px;
+    background-position:center;
+	position: relative;        
+    width: 60%;            
+    height: 1024px;       
+    margin-left: auto;      
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+.myworktext{
+    font-weight: bold;
+    color: white;
+}
+
+#centerboard{
+    padding: 0;
+    overflow: hidden;
+}
+
+.taskpic{
+    border-radius: 5px;
+    width:140px; height:170px;
+    float: right;
+}
+
+
+li {
+    float: left;
+}
+
+#homeButton{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#workButton{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#friendsButton{
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#universityButton{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#question2{
+    background: rgba(0, 25, 25, .5); position:absolute;
+    font-weight: bold;
+    outline-color: green;
+    float: left; left: 0;
+}
+
+#professor {
+    background-color: grey;
+    width: 800px; height: 330px;
+    border:1px solid #000;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.professorpic{
+    border-radius: 5px;
+    width:140px; height:170px;
+    float: right;
+}
+
+#project{
+    border: 3px solid orange;
+    border-width: 5px;
+    border-style: dotted;
+    background-color: blue;
+    width: 800px; height: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.projectheader {
+    border-width: 5px;
+    border: 2px solid yellow;
+}
+
+address{
+    font-weight: bold;
+    color: white;
+    float: right; right:0;
+}
+
+#svm{
+    float: left;
+}

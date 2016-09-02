@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet3.css">
+	<title id="title">
+		My work
+	</title>
+</head>
+
+<body>
+
+<ul class="navbar" id="centerboard">
+  <li><a href="HW1.html"><button type="button" id="homeButton">Home</button></a>
+  <li><a href="mywork.html"><button type="button" id="workButton">My work</button></a>
+  <li><a href="myfriend.html"><button type="button" id="friendsButton">My friends</button></a>
+  <li><a href="http://www.kanazawa-u.ac.jp/e/"><button type="button" id="universityButton">About Kanazawa University</button></a>
+</ul>
+
+<h3 class="myworktext">My Work</h3>
+<blockquote><font color="yellow">The trained man wins.</font></blockquote>
+ <div id="professor">
+ <font color="orange">
+ <article>
+ <img src="professor.jpg" class="professorpic">
+<center><h4>Professor</h4></center>
+<h5><a href="http://ridb.kanazawa-u.ac.jp/public/detail_en.php?id=2076">More information about Prof. Kenji Satou</a></h5>
+<p class="professorparagraph">
+The professor who is responsible for my internship at the laboratory of Bioinformatics is Professor Kenji Satou. His research fields are Bioinformatics and Text Mining for medical science. These are examples of his papers:
+</p>
+<ul>
+<li>A deductive database system PACADE for the three dimensional structure of protein 1991/01</li>
+<li>Application of a deductive database system PACADE toward discovery of clusters of similar structures in proteins 1994/01</li>
+<li>Automated template discovery for information extraction from biomedical literature 2004/07</li>
+<li>Drug interaction ontology (DIO) for inferences of possible drug-drug interactions 2004/09</li>
+<li>Phylogenetic reconstruction from non-genomic data 2007/01</li>
+<li>A Novel Over-Sampling Method and its Application to Cancer Classification from Gene Expression Data 2013/01</li>
+</ul>
+</article>
+</font>
+</div>
+<br>
+<hr>
+
+<div id="project">
+ <font color="yellow">
+<article>
+<center><h4 class="projectheader">
+Project
+</h4></center>
+ <img src="task.jpg" class="taskpic">
+<p class="projectparagraph">
+The topic for my internship project is "Application of Machine Learning to the Prediction of Ames Mutagenicity". The benefit of this project is to reduce time used for Ames test research for drug design. I need to do some experiments on two approaches of classification which are numerical approach and text mining approach.
+</p>
+<dl>
+<dt><bdi>Two approaches</bdi></dt>
+<dd>For numerical approach, I needed to use PADEL-Descriptor to calculate numerical vectors from SMILES format compounds in the mutagenicity benchmark dataset, write R code to load the file gotten from the calculation and train Kernlab Support Vector Machine with it, evaluate the machine with 10-fold cross validation and take note on the results. After this process was done, I needed to improve the performance of KSVM with some feature selection algorithms which for this case, I chose to implement Random Forest algorithm and Information Gain technique to select only important features for the training. As a result, the training took lesser time but the performance were not improved since there seemed to be lesser accuracy.</dd>
+<dd>For text mining approach, I needed to learn how to use ConText, a Convultional Neural Network for text classification. The data preparation was really hard since the software package would only process with text data that is separated into sentences of words. Each word inside a sentence needs to be separated by a space. Thus, I needed to write some Java programs to help me. However, it was not so easy as it sounded. The text data that I needed to use for the classification is in SMILES format so I also needed to understand it a bit.</dd>
+</dl>
+</article>
+</font>
+</div>
+<hr>
+<EMBED SRC="+Ost.++[official+HD].mp3" LOOP=TRUE>
+<br>
+<div id="svm">
+<iframe width="244" height="280" src="https://www.youtube.com/embed/1NxnPkZM9bc" frameborder="0" allowfullscreen></iframe>
+</div>
+<div id="cnn">
+<iframe width="244" height="280" src="https://www.youtube.com/embed/LodC7Zm3X8Q" frameborder="0" allowfullscreen></iframe>
+</div>
+<br>
+<div id="question2">
+<font color="pink"><h3 id="question2h3">Which algorithm do you think I should try instead of CNN ?</h3>
+<form class="question2choice">
+<input type="radio" name="games" value="1" checked> Artificial Immune System
+<br>
+<input type="radio" name="games" value="2"> Genetic Programming
+<br>
+<input type="radio" name="games" value="3"> Swarm Optimization
+<br>
+<input type="radio" name="games" value="4"> Naive Bayes
+<br>
+<input type="submit" value="Submit">
+</form>
+</font>
+</div>
+</aside>
+<br>
+<address>Made 5 August 2016<br>
+  by Sirapop Nuannimnoi.</address>
+</body>
+</html>
