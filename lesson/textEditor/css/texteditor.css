@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height:300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-input{
+  width: 100px;
+}
+
+.search-replace{
+  width: 100px;
+}
+
+.replace-input{
+  width: 100px;
+}
+
+mark{
+    background: yellow;
+}

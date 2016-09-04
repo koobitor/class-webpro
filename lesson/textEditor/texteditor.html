@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Editor</title>
+  <link rel="stylesheet" href="css/texteditor.css">
+  <link rel="stylesheet" href="css/jquery.highlighttextarea.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Text Editor</h1>
+    Font:
+    <select class="font">
+      <option value="Arial">Arial</option>
+      <option value="Tahoma">Tahoma</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Impact">Impact</option>
+    </select>
+    Font size:
+    <select class="font-size"></select>
+    Font style:
+    <input type="button" class="bold-btn" value="B"/>
+    <input type="button" class="italic-btn" value="/"/>
+    Color:
+    <select class="font-color">
+      <option value="Black">Black</option>
+      <option value="Blue">Blue</option>
+      <option value="Red">Red</option>
+      <option value="Green">Green</option>
+      <option value="Yellow">Yellow</option>
+    </select>
+    <br><br>
+    Search:
+    <input type="text" class="search-input">
+    Replace:
+    <input type="text" class="search-replace">
+     with
+    <input type="text" class="replace-input">
+    <input type="button" class="replace-btn" value="Replace"/>
+    <br><br>
+    Load file:
+    <input type="file" class="load">
+    Save file:
+      <input type="text" class="save-input" value="example.txt">
+      <input type="submit" class="save-btn" value="Save"/>
+    <br><br>
+    <textarea name="text" id="text" cols="50" rows="10"></textarea>
+  </div>
+  <script src="js/jquery-1.8.3.js"></script>
+  <script src="js/FileSaver.js"></script>
+  <script src="js/jquery.mark.js"></script>
+  <script src="js/jquery.highlighttextarea.js"></script>
+  <script type="text/javascript" src="js/texteditor.js"></script>
+</body>
+</html>
