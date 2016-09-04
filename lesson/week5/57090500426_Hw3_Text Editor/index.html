@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h2>Text-editor</h2>
+    </header><br>
+    <div class="menu">
+      <select class="family" name="fnt-family">
+        <option value="serif">Serif</option>
+        <option value="cursive">Cursive</option>
+        <option value="fantasy">Fantasy</option>
+      </select>
+      <select class="size" name="txt-size">
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="18">18</option>
+        <option value="20">20</option>
+        <option value="22">22</option>
+      </select>
+      <button type="button" class="btn btn-primary" id="bold" ><b>B</b></button>
+      <button type="button" class="btn btn-primary" id="italic"><i>i</i></button>
+      <button type="button" class="btn btn-primary" id="underline"><u>U</u></button>
+
+      <input type="text" id="txtSearch" placeholder="Search">
+      <button type="button" class="btn btn-success" id="search">Search</button>
+      <input type="text" id="txtReplace" placeholder="Replace">
+      <button type="button" class="btn btn-success" id="replace">Replace</button>
+
+      <button type="button" class="btn btn-info" id="btnOpen">Open file</button>
+      <button type="button" class="btn btn-info" id="btnSave">Save file</button>
+      <button type="button" class="btn btn-info" id="btnClose">Close file</button>
+      <input type="file" id="exampleInputFile" accept=".txt,.csv,.xml">
+    </div>
+    <div class="content">
+      <input type="text" class="title" placeholder="Title"><br>
+      <textarea id="txtZone" class="txtZone" name="txtZone" placeholder="Typing here...">Typing here...</textarea>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
