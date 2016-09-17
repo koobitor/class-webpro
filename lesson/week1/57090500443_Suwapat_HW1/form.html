@@ -1,0 +1,59 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+	body {    	
+   	 	background-color:#F4F37A;
+	}
+	h1{
+		text-align:center;
+		color:#BB0306;
+	}
+</style>
+</head>
+
+<body>
+            <h1>กรุณากรอกที่อยู่ของคุณ</h1>
+            <form method="post" action="thankyou.html">
+            <table cellpadding="5" align="center">
+            	<tr>
+                	<td>ชื่อ นามสกุล</td>
+                    <td><input class="inputForm" type="text" name="fullname"></td>
+                </tr>
+                
+                <tr valign="top">
+                	<td>ที่อยู่</td>
+                    <td><textarea class="inputForm" name="address" rows="3"></textarea></td>
+                </tr>
+                
+                <tr>
+                	<td>รหัสไปรษณีย์</td>
+                    <td><input type="text" name="zipcode" maxlength="5"></td>
+                </tr>               
+                
+                <tr>
+                	<td>เพศ</td>
+                    <td>
+                    	<input type="radio" name="gender" value="ชาย" checked>ชาย <br>
+                    	<input type="radio" name="gender" value="หญิง">หญิง
+                    </td>
+                </tr>
+                
+                <tr valign="top">
+                	<td>หมายเหตุ</td>
+                    <td><textarea class="inputForm" name="comment" rows="9"></textarea></td>
+                </tr>
+                
+                 <tr align="center">
+                	<td colspan="2">
+                    	<input class="buttonForm" type="reset" value="Clear Data"> &nbsp;
+                        <input class="buttonForm" type="submit" value="Submit Data">
+                    </td>
+                </tr>
+                
+            </table>
+            </form>
+</body>
+</html>
