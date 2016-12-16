@@ -1,0 +1,135 @@
+body {
+	background-color: rgba(50,155,100,0.5);
+	background-image: url("bg41.jpg");
+	background-position:center;
+	position: relative;
+    width: 60%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#task-work{
+  background-color: rgba(50,155,100,0.5);
+  height: 90px;
+  width: 724px;
+}
+
+tr{
+	background: lightgreen; color: darkgreen;
+}
+
+#task-input {
+   width: 500px;
+   height: 28px;
+   border: solid 2px #00E3E3;
+   padding: 2px;
+   border-radius: 5px;
+   font-size: 18px;
+   box-shadow: 0px 1px 2px 8px #158A0B;
+   text-shadow: 1px 1px 0px rgba(3, 82, 5, 0.8);
+   background-color: #FFFFFF;
+   color: #474747;
+  }
+
+#task-input:hover  {
+   border: 2px solid #FF00D5;
+  }
+
+#task-input:focus  {
+   border: solid 2px #00D43C;
+   box-shadow: inset 0px 1px 2px 0px #9C9C9C;
+  }
+
+#task-input:active  {
+   border: solid 2px #0043EB;
+  }
+
+   .btnadd, .btnclear {
+     border-radius: 10%;
+     transition-duration: 0.4s;
+     padding: 10px 28px;
+     background-color: white;
+     color: green;
+     font-weight: bold;
+     box-shadow: 0px 1px 2px 8px #158A0B;
+     border: solid 2px #00E3E3;
+     background-color: #FFFFFF;
+   }
+
+ #text-div  {
+   float:left;
+   width:70%;
+   margin:10px
+  }
+
+  #button-div{
+    float:right;
+    width: 20%;
+    margin:10px;
+  }
+
+  .btn-clr{
+    float: center;
+    width: 20%;
+    margin: 10px;
+  }
+
+   .btnadd:hover, .btnclear:hover{
+     background-color: green;
+     color: white;
+   }
+
+	 ul {
+	height: auto;
+  width: 688px;
+}
+
+ul li {
+	border: 2px solid yellow;
+  cursor: crosshair;
+  position: relative;
+  padding: 4px 5px 5px 10px;
+  background-color: rgba(50,155,100,0.5);
+  font-size: 18px;
+	font-weight: bold;
+	color: yellow;
+  transition: 0.2s;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul li:hover {
+	border: 2px solid red;
+  background:	lightblue;
+	color: red;
+}
+
+input[type='checkbox']{
+	float:left;
+}
+
+address{
+	float:left;
+	margin-left: 7%;
+	color: yellow;
+	font-weight: bold;
+}
+
+.delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 4px 4px 4px 10px
+}
+
+.delete:hover {
+  background-color: red;
+  color: white;
+}
