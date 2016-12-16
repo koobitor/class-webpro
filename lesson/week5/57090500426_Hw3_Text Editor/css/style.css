@@ -1,0 +1,39 @@
+*{
+  font-family: serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+body{
+  background-color: azure;
+}
+
+header{
+  background-color: #CCFFCC;
+  color: #217C7E;
+  padding: 1px;
+}
+
+.title{
+  font-size: 16px;
+}
+
+#txtZone{
+  resize: none;
+  text-align: left;
+  width: 90%;
+  height: 475px;
+}
+
+.title{
+  width: 90%;
+  text-align: left;
+}
+
+input{
+  text-align: left;
+}
+
+#exampleInputFile {
+  display: none;
+}

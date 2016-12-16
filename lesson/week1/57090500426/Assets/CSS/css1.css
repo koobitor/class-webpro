@@ -1,6 +1,6 @@
 body {
 	background-color:#1C1C1C;
-	background-image: url("images/guitar-red.png"),url('images/mic.png'),url('images/drum.png');
+	background-image: url("../images/guitar-red.png"),url('../images/mic.png'),url('../images/drum.png');
 	background-size: 160px 120px;
   background-repeat: no-repeat;
   background-attachment: fixed;
